@@ -1,14 +1,6 @@
 <?php
 
-    $url = isset($_GET['url']) ? explode('/',$_GET['url'])[0] : 'Home';
 
-    $url = ucfirst($url);
- 
-    $url = 'Home';
-
-    if($url == 'Home') {
-        include('home.php');
-    }
 
     echo 'teste';
 ?>
